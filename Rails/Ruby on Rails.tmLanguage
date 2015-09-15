@@ -43,7 +43,12 @@
 	<key>keyEquivalent</key>
 	<string>^~R</string>
 	<key>name</key>
-	<string>Ruby on Rails Next</string>
+	<string>Ruby on Rails</string>
+	<key>scopeName</key>
+	<string>source.ruby.rails</string>
+	<key>uuid</key>
+	<string>1065660B-66B1-4E61-8541-DF92A0D1F596</string>
+	<!--<string>54D6E91E-8F31-11D9-90C5-0011242E4184</string>-->
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -279,10 +284,5 @@
 			<string>source.ruby</string>
 		</dict>
 	</array>
-	<key>scopeName</key>
-	<string>source.ruby.rails</string>
-	<key>uuid</key>
-	<string>1065660B-66B1-4E61-8541-DF92A0D1F596</string>
-	<!--<string>54D6E91E-8F31-11D9-90C5-0011242E4184</string>-->
 </dict>
 </plist>
