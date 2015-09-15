@@ -1398,7 +1398,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>%[qwsii]\&lt;</string>
+			<string>%[qwsi]\&lt;</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
