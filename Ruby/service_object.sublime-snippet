@@ -5,7 +5,7 @@
 	end
 
 	def initialize(${2:options})
-		@$2 = $2
+		@${2/,\s*/, @/g} = $2
 	end
 
 	def call
