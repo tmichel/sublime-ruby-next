@@ -13,7 +13,7 @@
 	end
 end]]>
 </content>
-	<tabTrigger>service</tabTrigger>
+	<tabTrigger>cla</tabTrigger>
 	<scope>source.ruby</scope>
 	<description>Service Object skeleton</description>
 </snippet>
