@@ -232,6 +232,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>logic operation with a symbol</string>
+			<key>match</key>
+			<string>^!+|(?&lt;=[ \t])!+|&amp;&amp;|\|\||\^</string>
+			<key>name</key>
+			<string>keyword.operator.logical.ruby</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string> just as above but being not a logical operation</string>
 			<key>match</key>
 			<string>(?&lt;!\.)\b(alias|alias_method|break|next|redo|retry|return|super|undef|yield)\b(?![?!:])|\bdefined\?|\bblock_given\?</string>
@@ -2228,12 +2236,6 @@
 			<string>&lt;=&gt;|&lt;(?!&lt;|=)|&gt;(?!&lt;|=|&gt;)|&lt;=|&gt;=|===|==|=~|!=|!~|(?&lt;=[ \t])\?</string>
 			<key>name</key>
 			<string>keyword.operator.comparison.ruby</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?&lt;=[ \t])!+|\bnot\b|&amp;&amp;|\band\b|\|\||\bor\b|\^</string>
-			<key>name</key>
-			<string>keyword.operator.logical.ruby</string>
 		</dict>
 		<dict>
 			<key>match</key>
