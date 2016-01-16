@@ -68,6 +68,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>String format character</string>
+			<key>scope</key>
+			<string>string.format</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
