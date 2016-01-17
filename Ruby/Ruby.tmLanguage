@@ -261,6 +261,7 @@
 		<dict>
 			<key>comment</key>
 			<string> everything being a method but having a special function is a..</string>
+			<!-- TODO: some of these should be de-emphasized when used as an actual method. e.g. "world".prepend("hello ") -->
 			<key>match</key>
 			<string>\b(initialize|new|loop|include|extend|prepend|raise|attr_reader|attr_writer|attr_accessor|attr|catch|throw|private|module_function|public|protected)\b(?![?!])</string>
 			<key>name</key>
@@ -2220,6 +2221,12 @@
 					<string>,</string>
 					<key>name</key>
 					<string>punctuation.separator.variable.ruby</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(&amp;|\*)</string>
+					<key>name</key>
+					<string>keyword.operator.arithmetic.ruby</string>
 				</dict>
 			</array>
 		</dict>
