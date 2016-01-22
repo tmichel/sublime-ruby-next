@@ -377,7 +377,7 @@
 		</dict>
                 <dict>
                         <key>match</key>
-                        <string>\b[A-Z]\w*(?=\s*=(?!>))\b</string>
+                        <string>\b[A-Z]\w*(?=\s*[,=](?!&gt;))\b</string>
                         <key>name</key>
                         <string>variable.other.constant-definition.ruby</string>
                 </dict>
