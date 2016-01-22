@@ -1,0 +1,14 @@
+Ruby:
+====
+
+* Heredoc does not recognize methods in heredoc definition
+  
+  Example
+  
+  <<EOL.squish unless foo
+  This is the body of the heredoc
+  EOF
+  
+  Everything after the . should be recognized as simple ruby
+
+* Some of special methods should be de-emphasized when used as an actual method. e.g. "world".prepend("hello")
