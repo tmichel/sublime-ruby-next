@@ -263,13 +263,13 @@
 			<string> everything being a method but having a special function is a..</string>
 			<!-- TODO: some of these should be de-emphasized when used as an actual method. e.g. "world".prepend("hello ") -->
 			<key>match</key>
-			<string>\b(initialize|new|loop|include|extend|prepend|raise|attr_reader|attr_writer|attr_accessor|attr|catch|throw|private|module_function|public|protected)\b(?![?!])</string>
+			<string>\b(initialize|new|loop|include|extend|prepend|raise|attr_reader|attr_writer|attr_accessor|attr|catch|throw|private|module_function|public|protected)\b(?![?!:])</string>
 			<key>name</key>
 			<string>keyword.other.special-method.ruby</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\b(require|gem)\b</string>
+			<string>\b(require|gem)(?![?!:])\b</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
