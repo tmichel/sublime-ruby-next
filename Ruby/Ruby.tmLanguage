@@ -375,12 +375,12 @@
 			<key>name</key>
 			<string>support.class.ruby</string>
 		</dict>
-                <dict>
-                        <key>match</key>
-                        <string>\b[A-Z]\w*(?=\s*[,=](?!&gt;))\b</string>
-                        <key>name</key>
-                        <string>variable.other.constant-definition.ruby</string>
-                </dict>
+		<dict>
+			<key>match</key>
+			<string>\b([A-Z]\w*(, )?)+(?=\s*=(?!&gt;))\b</string>
+			<key>name</key>
+			<string>variable.other.constant-definition.ruby</string>
+		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b[A-Z]\w*(?!:)\b</string>
